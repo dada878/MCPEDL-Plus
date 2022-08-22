@@ -1,0 +1,218 @@
+.main *:not(.post *) {
+    color: white;
+}
+
+.default-theme .content__top {
+    border-bottom: 1px solid #6c717b !important;
+}
+
+.default-theme .post__category-link {
+    color: #00dd3b !important;
+    transition: 200ms ease !important;
+}
+
+.default-theme .post__category-link:hover {
+    color: #71ff97 !important;
+}
+
+.el-form input,
+.default-theme .search__input input, 
+.el-form textarea {
+    background-color: #52565f !important;
+    color: white !important;
+}
+
+.comments-top__counter span {
+    background-color: #52565f !important;
+}
+
+.default-theme .post-page__content p,
+.default-theme .post-page h3 {
+    color: white !important;
+}
+
+.comment-form,
+.pinned-comment {
+    background-color: #42464d !important;
+}
+
+#__layout {
+    background-color: #202225;
+}
+
+.sidebar {
+    background-color: #2f3136 !important;
+}
+
+.content {
+    background-color: #36393f !important;
+}
+
+.post-page__title {
+    color: white !important;
+}
+
+.introduction-field p,
+.description-field * {
+    color: #ffffff !important;
+}
+
+.default-theme .post-page .spoiler .spoiler-title {
+    box-shadow: none !important;
+    background-color: #42464d !important;
+    color: rgb(255, 255, 255) !important;
+    background-image: none !important;
+    border: 1px solid rgb(225, 225, 225);
+}
+
+.default-theme .post-page .spoiler .spoiler-content {
+    color: rgb(255, 255, 255) !important;
+    background-color: #42464d !important;
+    background-image: none !important;
+}
+
+.default-theme .content__wrap-row {
+    border-bottom: none !important;
+}
+
+.default-theme .post-page__content .downloads-item a,
+.default-theme .post-page__content .downloads-item span,
+.default-theme .post-page__content p a,
+.default-theme a.comments-item__name {
+    color: #00dd3b !important;
+}
+
+.default-theme .post-page__content .downloads-item a:hover,
+.default-theme .post-page__content .downloads-item span:hover,
+.default-theme .post-page__content p a:hover,
+.default-theme a:hover .comments-item__name {
+    color: #4dff7c !important;
+    transition: 200ms;
+}
+
+.comments-item__content__vip {
+    color: black !important;
+    background-color: #42464d !important;
+}
+
+.default-theme .post .post__title a,
+.default-theme .also-item * {
+    color: white !important;
+    transition: 200ms !important;
+}
+
+.default-theme .also-item {
+    color: white !important;
+    transition: 200ms !important;
+}
+
+.default-theme .post__img {
+    box-shadow: none !important;
+}
+
+.default-theme .post__img:hover {
+    box-shadow: black 10px 10px 10px;
+}
+
+.default-theme .post:hover .post__title a,
+.default-theme .also-item:hover * {
+    color: #4dff7c !important;
+}
+
+.default-theme .navigate-page a {
+    color: #00dd3b !important;
+    transition: 200ms;
+}
+
+.default-theme .navigate-page a:hover {
+    color: #4dff7c !important;
+}
+
+.default-theme .post__text {
+    color: #bbbbbb !important;
+}
+
+.default-theme .comments-item__name {
+    color: white !important;
+}
+
+.default-theme .comments-item__text, .default-theme .comments-item__text p {
+    color: rgb(177, 177, 177) !important;
+}
+
+.notebox {
+    background: #626772 !important;
+}
+
+.default-theme .content__title {
+    color: #aaa !important;
+}
+
+/* 
+.default-theme .changelog-header {
+    border-bottom: 1px #bbc0ca !important;
+}
+
+.default-theme #changelogs {
+    border: 1px #b9bfc9 !important;
+} */
+
+.default-theme .post {
+    padding: 10px;
+    border-radius: 10px;
+    transition: 200ms !important;
+    background-color: #36393f;
+    cursor: pointer;
+}
+
+.default-theme .post:hover {
+    background-color: #4b4f55 !important;
+}
+
+.main-menu .nav-item a, .main-menu .nav-item span {
+    transition: 200ms;
+}
+
+/* .default-theme .post-page .spoiler .spoiler-title.hide-icon:after, .default-theme .post-page .spoiler .spoiler-title.show-icon:after {
+
+} */
+
+.default-theme .form-control,
+.default-theme .filter-select {
+    border: 1px solid white !important;
+    color: white !important;
+    background-color: #2f3136 !important;
+}
+
+.download-modal .el-dialog {
+    background: #52565f !important;
+}
+
+.comments-item__buttons .comments-item__like .like__btn[data-v-305f5681] {
+    opacity: 1 !important;
+    transition: 200ms;
+    filter:brightness(0.7);
+}
+
+.comments-item__buttons .comments-item__like .like__btn[data-v-305f5681]:hover {
+    text-shadow: 0 0 10px rgb(255, 119, 119);
+    filter:brightness(1);
+}
+
+.liked {
+    filter:brightness(1) !important;
+    text-shadow: 0 0 5px rgb(255, 119, 119) !important;
+}
+/* 
+.default-theme .navigate-page a {
+
+} */
+
+.default-theme .heading {
+    color: white !important;
+}
+
+.default-theme .comments-top__counter {
+    color: #00dd3b !important;
+    border-bottom: 2px solid #00dd3b !important;
+}

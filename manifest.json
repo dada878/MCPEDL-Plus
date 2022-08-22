@@ -1,32 +1,33 @@
 {
     "name": "MCPEDL Plus",
-    "version": "1.0",
     "description": "Dark mode, Infinite Scrolling and more!",
-    "manifest_version": 2,
-    "icons": {
-        "64": "images/icon.png"
-    },
-    "permissions": [
-        "*://*.mcpedl.com/*"
+    "version": "1.0",
+    "content_scripts": [
+        {
+            "matches": [
+                "*://*.mcpedl.com/*"
+            ],
+            "js": [
+                "node_modules/jquery/dist/jquery.min.js",
+                "content.js"
+            ],
+            "css": [
+                "content.css"
+            ],
+            "run_at": "document_end"
+        }
     ],
-    "background": {
-        "scripts": [
-            "background.js"
-        ],
-        "persistent": false
-    },
-    "browser_action": {
+    "action": {
         "default_popup": "popup.html",
         "default_icon": {
             "64": "images/icon.png"
         }
     },
-    "content_scripts": [
-        {
-          "matches": ["*://*.mcpedl.com/*"],
-          "js": ["node_modules/jquery/dist/jquery.min.js","content.js"],
-          "css" : ["content.css"],
-          "run_at": "document_end"
-        }
+    "icons": {
+        "64": "images/icon.png"
+    },
+    "manifest_version": 3,
+    "host_permissions": [
+        "*://*.mcpedl.com/*"
     ]
 }
